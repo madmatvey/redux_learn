@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from 'react'
 
 export default class Page extends Component {
   onYearBtnClick(e) {
-    this.props.setYear(+e.target.innerText)
+    this.props.getPhotos(+e.target.innerText)
   }
   render() {
     const { year, photos, fetching } = this.props
