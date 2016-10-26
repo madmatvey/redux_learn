@@ -1,0 +1,14 @@
+{
+  "name": "redux_example",
+  "version": "1.0.0",
+  "description": "learnin redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Evgeniy Leontiev",
+  "license": "MIT"
+}
